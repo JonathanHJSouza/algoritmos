@@ -1,0 +1,85 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Solicitações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Admin - Aprovar ou Recusar Solicitações</h2>
+    </header>
+    <main>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Usuário</th>
+                        <th>Evento</th>
+                        <th>Data</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>usuario@example.com</td>
+                        <td>Workshop UX</td>
+                        <td>2025-03-10</td>
+                        <td>
+                            <button class="approve">Aprovar</button>
+                            <button class="reject">Recusar</button>
+                            <input type="text" placeholder="Justificativa">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>teste@example.com</td>
+                        <td>Conferência Web</td>
+                        <td>2025-04-15</td>
+                        <td>
+                            <button class="approve">Aprovar</button>
+                            <button class="reject">Recusar</button>
+                            <input type="text" placeholder="Justificativa">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="section2">
+            <h2>Histórico de Solicitações</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Usuário</th>
+                        <th>Evento</th>
+                        <th>Data</th>
+                        <th>Status</th>
+                        <th>Justificativa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>usuario@example.com</td>
+                        <td>Workshop UX</td>
+                        <td>2025-03-10</td>
+                        <td>Aprovado</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>teste@example.com</td>
+                        <td>Conferência Web</td>
+                        <td>2025-04-15</td>
+                        <td>Recusado</td>
+                        <td>Dados inconsistentes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Sistema de Certificados</p>
+    </footer>
+</body>
+</html>
